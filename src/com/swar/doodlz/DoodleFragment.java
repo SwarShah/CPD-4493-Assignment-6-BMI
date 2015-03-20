@@ -176,6 +176,10 @@ public class DoodleFragment extends Fragment
          case R.id.print:     
             doodleView.printImage(); // print the current images
             return true; // consume the menu event
+         case R.id.bgColor:
+             BackgroundColorDialogFragment bgColorDialog = new BackgroundColorDialogFragment();      
+             bgColorDialog.show(getFragmentManager(), "color dialog");
+             return true; // consume the menu event
       } // end switch
 
       return super.onOptionsItemSelected(item); // call super's method

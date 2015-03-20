@@ -28,6 +28,7 @@ public final class R {
     public static final class id {
         public static final int alphaSeekBar=0x7f080003;
         public static final int alphaTextView=0x7f080002;
+        public static final int bgColor=0x7f080014;
         public static final int blueSeekBar=0x7f080009;
         public static final int blueTextView=0x7f080008;
         public static final int clear=0x7f080012;
@@ -41,7 +42,7 @@ public final class R {
         public static final int greenTextView=0x7f080006;
         public static final int lineWidth=0x7f080010;
         public static final int lineWidthDialogGridLayout=0x7f08000c;
-        public static final int print=0x7f080014;
+        public static final int print=0x7f080015;
         public static final int redSeekBar=0x7f080005;
         public static final int redTextView=0x7f080004;
         public static final int save=0x7f080013;

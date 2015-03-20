@@ -7,6 +7,7 @@ import java.util.Map;
 
 import com.swar.doodlz.R;
 
+import android.R.color;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

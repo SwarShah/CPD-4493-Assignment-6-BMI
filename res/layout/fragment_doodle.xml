@@ -9,4 +9,9 @@
         android:layout_height="match_parent"
         class="com.swar.doodlz.DoodleView" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
 </FrameLayout>

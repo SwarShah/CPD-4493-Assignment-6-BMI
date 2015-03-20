@@ -6,6 +6,7 @@ import com.swar.doodlz.R;
 
 import android.app.Fragment;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -179,7 +180,11 @@ public class DoodleFragment extends Fragment
          case R.id.bgColor:
              BackgroundColorDialogFragment bgColorDialog = new BackgroundColorDialogFragment();      
              bgColorDialog.show(getFragmentManager(), "color dialog");
-             return true; // consume the menu event
+             return true;
+         case R.id.bgImg:
+             Intent i = new Intent(Intent.ACTION_PICK,android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+             startActivityForResult(i, 1);
+             return true;// consume the menu event
       } // end switch
 
       return super.onOptionsItemSelected(item); // call super's method

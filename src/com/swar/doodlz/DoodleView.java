@@ -35,7 +35,7 @@ public class DoodleView extends View
    private Canvas bitmapCanvas; // used to draw on bitmap
    private final Paint paintScreen; // used to draw bitmap onto screen
    private final Paint paintLine; // used to draw lines onto bitmap
-   
+   private int bgColor = Color.WHITE;
    // Maps of current Paths being drawn and Points in those Paths
    private final Map<Integer, Path> pathMap = new HashMap<Integer, Path>(); 
    private final Map<Integer, Point> previousPointMap = 
@@ -93,7 +93,16 @@ public class DoodleView extends View
    {
       return paintLine.getColor();
    }
-
+   
+   public void setBgColor(int color){
+	   bgColor = color;
+	   bitmap.eraseColor(bgColor);
+	   invalidate();
+   }
+   
+   public int getBgColor(){
+	   return bgColor;
+   }
    // set the painted line's width
    public void setLineWidth(int width) 
    {

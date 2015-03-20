@@ -1,4 +1,4 @@
-// ColorDialogFragment.java
+// BackgroundColorDialogFragment.java
 // Allows user to set the drawing color on the DoodleView
 package com.swar.doodlz;
 
@@ -59,7 +59,7 @@ public class BackgroundColorDialogFragment extends DialogFragment
      
       // use current drawing color to set SeekBar values
       final DoodleView doodleView = getDoodleFragment().getDoodleView();
-      color = doodleView.getDrawingColor();
+      color = doodleView.getBgColor();
       alphaSeekBar.setProgress(Color.alpha(color));
       redSeekBar.setProgress(Color.red(color));
       greenSeekBar.setProgress(Color.green(color));
@@ -71,7 +71,7 @@ public class BackgroundColorDialogFragment extends DialogFragment
          {
             public void onClick(DialogInterface dialog, int id) 
             {
-               //doodleView.setDrawingColor(color); 
+               doodleView.setBgColor(color); 
             } 
          } 
       ); // end call to setPositiveButton

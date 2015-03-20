@@ -25,6 +25,6 @@
     <string name="title_line_width_dialog">Choose Line Width</string>
     <string name="menuitem_background_color">Background Color</string>
     <string name="button_set_background_color">Set Background Color</string>
-    
+    <string name="menuitem_background_image">Background Image</string>
 
 </resources>

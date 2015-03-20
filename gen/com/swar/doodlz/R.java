@@ -29,6 +29,7 @@ public final class R {
         public static final int alphaSeekBar=0x7f080003;
         public static final int alphaTextView=0x7f080002;
         public static final int bgColor=0x7f080015;
+        public static final int bgImg=0x7f080016;
         public static final int blueSeekBar=0x7f080009;
         public static final int blueTextView=0x7f080008;
         public static final int clear=0x7f080013;
@@ -43,7 +44,7 @@ public final class R {
         public static final int imageView1=0x7f08000c;
         public static final int lineWidth=0x7f080011;
         public static final int lineWidthDialogGridLayout=0x7f08000d;
-        public static final int print=0x7f080016;
+        public static final int print=0x7f080017;
         public static final int redSeekBar=0x7f080005;
         public static final int redTextView=0x7f080004;
         public static final int save=0x7f080014;
@@ -72,6 +73,7 @@ public final class R {
         public static final int label_red=0x7f050007;
         public static final int line_imageview_description=0x7f050005;
         public static final int menuitem_background_color=0x7f050016;
+        public static final int menuitem_background_image=0x7f050018;
         public static final int menuitem_clear=0x7f05000a;
         public static final int menuitem_color=0x7f05000b;
         public static final int menuitem_eraser=0x7f05000c;

@@ -35,5 +35,10 @@
         android:showAsAction="ifRoom"
         android:title="@string/menuitem_background_color">
     </item>
+    <item
+        android:id="@+id/bgImg"
+        android:showAsAction="ifRoom"
+        android:title="@string/menuitem_background_image">
+    </item>
 
 </menu>
